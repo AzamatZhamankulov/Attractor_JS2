@@ -11,6 +11,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+  box-sizing: border-box;
 }
 
 .header {
@@ -36,5 +37,123 @@ body {
   text-transform: uppercase;
   margin: 0 15px;
 }
+
+.main_block {
+  background-color: #eee;
+}
+
+.main_container {
+  padding: 4% 60% 10% 2%;
+  background-image: url(../images/main-pic.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  width: 90%;
+}
+
+.btn_more {
+  display: inline-block;
+  background-color: #fb565a;
+  padding: 15px 60px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.services_container {
+  padding: 60px 90px;
+  background-color: #fff;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.services_container div {
+  display: inline-block;
+  width: 25%;
+  align-items: center;
+  margin: 0 40px;
+  padding-top: 10%;
+}
+
+.services_website {
+  background-image: url(../images/ic-1.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.services_app {
+  background-image: url(../images/ic-2.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.services_presentations {
+  background-image: url(../images/ic-3.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.services_title {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+}
+
+.btn_order {
+  display: inline-block;
+  padding: 10px 40px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.order1 {
+  background-color: #efc75e;
+}
+
+.order2 {
+  background-color: #52b1b1;
+}
+
+.order3 {
+  background-color: #f0dc6a;
+}
+
+.about_container {
+  padding: 1% 35% 2% 1%;
+  background-image: url(../images/pic.png);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  width: 90%;
+}
+
+.about_title {
+  font-size: 45px;
+  color: #000;
+  font-weight: normal;
+}
+
+.about_text {
+  line-height: 24px;
+}
+
+.about_service_title {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer_container {
+  text-align: end;
+  width: 90%;
+}
+
+.footer_title {
+  font-size: 36px;
+  color: #000;
+  margin: 0;
+}
+
 
 
